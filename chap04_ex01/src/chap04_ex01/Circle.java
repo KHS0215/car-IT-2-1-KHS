@@ -1,8 +1,8 @@
 package chap04_ex01;
 
 public class Circle {
-	int radius; // 반지름
-	String name; // 원의 이름
+	int radius; 
+	String name; 
 
 	public Circle() {
 
@@ -13,7 +13,6 @@ public class Circle {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Circle pizza;
 		pizza = new Circle();
 		pizza.radius = 5;
